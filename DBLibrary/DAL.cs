@@ -63,7 +63,7 @@ namespace DBLibrary
             await connection.OpenAsync();
 
             SqlCommand command = new(query, connection);
-            return command.ExecuteScalarAsync();
+            return await command.ExecuteScalarAsync();
         }
     }
 }

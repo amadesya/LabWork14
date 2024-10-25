@@ -24,5 +24,4 @@ Console.WriteLine($"Количество изменённых строк: {rows}
 
 //Task 5.4
 Console.WriteLine("\nTask 5.4");
-object query = await DAL.GetObject("UPDATE Game SET Price = 150 WHERE GameId = 3");
-Console.WriteLine($"Изменённый объект: {query}");
+Console.WriteLine(await DAL.GetObject("UPDATE Game SET Price = 150 WHERE GameId = 3"));
