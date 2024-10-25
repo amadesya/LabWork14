@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabWork14", "LabWork14\LabWork14.csproj", "{15C1442D-FCB4-4C46-AE8A-5B7833A64C43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBLibrary", "DBLibrary\DBLibrary.csproj", "{F72EFD01-7E8E-4590-802D-97622FBFD562}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15C1442D-FCB4-4C46-AE8A-5B7833A64C43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15C1442D-FCB4-4C46-AE8A-5B7833A64C43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15C1442D-FCB4-4C46-AE8A-5B7833A64C43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15C1442D-FCB4-4C46-AE8A-5B7833A64C43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F72EFD01-7E8E-4590-802D-97622FBFD562}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F72EFD01-7E8E-4590-802D-97622FBFD562}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F72EFD01-7E8E-4590-802D-97622FBFD562}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F72EFD01-7E8E-4590-802D-97622FBFD562}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0C71559-AD7F-4AD2-B59B-D556D215CB05}
+	EndGlobalSection
+EndGlobal
